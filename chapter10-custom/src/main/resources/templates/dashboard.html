@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Regular User Dashboard Page</title>
+</head>
+<body>
+Hello User! Welcome to your dashboard!
+
+<form id="logout-form" action="/logout" method="post">
+    <input type="hidden" name="{{csrf.parameterName}}" value="{{csrf.token}}" />
+    <button type="submit">Logout</button>
+</form>
+
+</body>
+</html>
