@@ -1,0 +1,8 @@
+# build directories
+target/
+
+# H2 database files
+*.db
+
+# temporary editor files
+*~
